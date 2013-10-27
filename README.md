@@ -1,63 +1,36 @@
 WstepLabo2
 ==========
-```sh
-cd c
-vim program.c
-```
 
-Wyświetl na ekran 2 pierwsze wiersze pliku program.c. (head)
 
-```sh
-head -2 program.c
-```
+#include<stdio.h>
+        int main () {
+        int n,i;
+        double liczba;
+        printf("kol.1|kol.2|kol.3\n");
+        printf("------+------+------\n");
+        scanf("%i", &n);
+        for(i=0;i<n;i++) {
+scanf("%lf", &liczba);
+        if(i%3==2)
+                printf("%6.2lf\n", liczba);
+        else
+                printf("%6.2lf |", liczba);
+}
+printf("\n");
+}
 
-Wyświetl na ekran 4 ostatnie wiersze pliku program.c. (head, tail)
 
-```sh
-tail -5 program.c
-```
+#include<stdio.h>
+    int main () {
+        int i,j, wartosc;
 
-W pliku program.c znajdź wszystkie wiersze z wystąpieniem słowa „main”. (grep)
+for(i = 0; i <= 9; i++){
+ for(j = 0; j <= 9; j++){
 
-```sh
-grep -e main program.c
-```
-
-Plikowi program.c nadaj następujące uprawnienia: właściciel – czytanie, pisanie, grupa – czytanie, pozostali użytkownicy: brak uprawnień. (chmod)
-
-```sh
-chmod u=rw,g=r,o=r,o-r program.c
-```
-
-Będąc w katalogu temp przenieś katalog wazne-sprawy do katalogu praca.
-
-```sh
-cd temp
-mv dom/wazne-sprawy praca/
-```
-
-Zarchiwizuj cały katalog temp. (zip i tar)
-
-```sh
-tar -cf archive.tar temp
-gzip archive.tar
-```
-
-Usuń katalog temp.
-
-```sh
-rm -r temp
-```
-
-Odtwórz z archiwum katalog temp. (unzip i tar)
-
-```sh
-tar -xvzf archive.tar.gz
-```
-
-Posprzątaj na swoim koncie.
-
-```sh
-rm temp.tar
-mv temp/praca/wazne-sprawy/ temp/dom/
-```
+ wartosc = i*j;
+ //wypisujesz pozycje na ekran
+ printf("%2i ",wartosc);
+ }
+//nowa linia
+printf("\n");
+} }
