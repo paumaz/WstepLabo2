@@ -33,12 +33,26 @@ chmod u=rw,g=r,o=r,o-r program.c
 
 ```sh
 cd temp
-mv 
+mv dom/wazne-sprawy praca/
 ```
 
 6. Zarchiwizuj cały katalog temp. (zip i tar)
 
 ```sh
-
+tar -cf archive.tar temp
+gzip archive.tar
 ```
+
+7. Usuń katalog temp.
+
+```sh
+rm -r temp
+```
+
+8. Odtwórz z archiwum katalog temp. (unzip i tar)
+
+```sh
+tar -xvzf archive.tar.gz
+```
+
 
