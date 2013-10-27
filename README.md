@@ -55,4 +55,9 @@ Odtwórz z archiwum katalog temp. (unzip i tar)
 tar -xvzf archive.tar.gz
 ```
 
+Posprzątaj na swoim koncie.
 
+```sh
+rm temp.tar
+mv temp/praca/wazne-sprawy/ temp/dom/
+```
