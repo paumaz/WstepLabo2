@@ -1,0 +1,55 @@
+Zadania od dok.Dzido: 12-15
+===========================
+Zad.12.
+#include <stdio.h>
+int main () {
+    int tab[5];
+    int i, x;
+    for (i=1; i<6; i++) {
+        scanf("%i", &x);
+        tab[i]=x;
+        printf("%i ", x);
+    }
+   
+    int max;
+    for (i=0; i<5; i++) {
+        //ustaw wartosc max na zerowy element tab
+        if(i == 0){
+            max = tab[0];
+        }
+
+        //sprawdz max z elementem iterowanym i
+        if(tab[i] > max){
+            max = tab[i];
+        }
+    }
+        printf("\n %i ", max);
+        return 0;
+}        
+Zad.13.
+#include <stdio.h>
+int main () {
+    int tab[5];
+    int i, x;
+    for (i=1; i<6; i++) {
+        scanf("%i", &x);
+        tab[i]=x;
+        printf("%i ", x);
+    }
+   
+    int min;
+    for (i=5; i>0; i--) {
+        //ustaw wartosc min na zerowy element tab
+        if(i == 5){
+            min = tab[5];
+        }
+
+        //sprawdz min z elementem iterowanym i
+        if(tab[i] < min){
+            min = tab[i];
+        }
+    }
+        printf("\n %i ", min);
+        return 0;
+} 
+Zad.14.
