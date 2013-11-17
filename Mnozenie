@@ -1,0 +1,34 @@
+Program wykonujacy mnozenie przez dodawanie
+==================
+#include<stdio.h>
+ 
+int main() {
+  int x;
+  int y;
+  int w;
+  int k;
+  int i;
+  int j;
+  printf ("Podaj liczbe x:\n");
+  scanf ("%i ", &x);
+  printf ("Podaj liczbe y:\n");
+  scanf ("%i ", &y);
+ 
+  //zmien wiersz
+  for (i=1; i<=y; i++) {
+ 
+     //zmien kolumne
+    for(j= 1; j<=x; j++){
+        w = 0;
+ 
+        //wykonaj mnozenie reczne
+        // w = i * j;
+        for(k = 0; k < j; k++){
+            w= w+i;
+        }
+ 
+        printf("%i ", w);
+    }
+    printf(" \n");
+  }
+}
