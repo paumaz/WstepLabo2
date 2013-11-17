@@ -1,0 +1,27 @@
+Program drukuje tabliczke mnozenia do 10
+============================
+#include<stdio.h>
+ 
+int main() {
+  int x=10;
+  int y=10;
+  int w=0;
+  int n;
+  int m;
+  int k;
+  int i;
+  int j;
+    scanf("%i", &n);
+    scanf("%i", &m);
+ 
+  for (i=1; i<=n; i++) {
+ 
+     for(j= 1; j<=m; j++){
+     w=w+2;
+ 
+    printf("%i ", w);
+    }
+ 
+    printf(" \n");
+  }
+}
