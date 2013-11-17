@@ -1,0 +1,86 @@
+Zadania od dok Dzido 1-5:
+==============================
+Zad.1.
+#include <stdio.h>
+int main()
+{
+   int l;
+   scanf("%i", &l);
+   if (l==5) {
+       printf("Liczba rowna 5");
+   }
+   if (l>5) {
+       printf("Wieksza od 5");
+   }
+   if (l<5) {
+       printf("Mniejsza od 5");
+   }
+}
+Zad.2.
+#include <stdio.h>
+int main()
+{
+   int l;
+   scanf("%i", &l);
+   if (l==0) {
+       printf("Liczba rowna 0");
+   }
+   if (l>0) {
+       printf("Liczba dodatnia");
+   }
+   if (l<0) {
+       printf("Liczba ujemna");
+   }
+}
+Zad.3.
+#include <stdio.h>
+int main()
+{
+   int l;
+   scanf("%i", &l);
+   if (l==0) {
+       printf("Liczba rowna 0");
+   }
+   if (l%2==0) {
+       printf("Liczba parzysta");
+   }
+   if (l%2!=0) {
+       printf("Liczba nieparzysta");
+   }
+}
+Zad.4.
+#include <stdio.h>
+int main()
+{
+   int l1;
+   scanf("%i", &l1);
+   int l2;
+   scanf("%i", &l2);
+ 
+   if (l1==l2) {
+       printf("Liczby sa rowne");
+   }
+   if (l1!=l2) {
+       printf("Liczby nie sa rowne");
+   }
+ 
+}
+Zad.5.
+#include <stdio.h>
+int main()
+{
+   int l1;
+   scanf("%i", &l1);
+   int l2;
+   scanf("%i", &l2);
+ 
+   if (l1==l2) {
+       printf("Liczby sa rowne");
+   }
+   if (l1>l2) {
+       printf("Liczba pierwsza jest wieksza");
+   }
+   if (l1<l2) {
+       printf("Liczba druga jest wieksza");
+   }
+}
