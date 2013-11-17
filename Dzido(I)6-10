@@ -1,0 +1,83 @@
+Zadania od dok Dzido 6-10:
+===============================
+Zad.6.
+#include <stdio.h>
+int main () {
+    int i;
+    int w=0;
+    int a;
+    for (i=0; i<20; i++) {
+        a=w+1;
+        w=i+a;
+    }
+    printf("%i ", w);
+ 
+}    
+Zad.7.
+ #include <stdio.h>
+int main () {
+    int i;
+    int w;
+    int a=0;
+    int d;
+    int k=0;
+    for (i=0; i<20; i++) {
+        a=a+1;
+        d=a*a;
+        w=k+d;
+        k=w;
+    }
+    printf("%i ", w);
+}    
+Zad.8.
+#include <stdio.h>
+int main () {
+    int i=0;
+    int w=2;
+ 
+    while (i<9) {
+        w=w*2;
+        i++;
+        printf("%i ", w);
+    }
+    }    
+Zad.9.
+#include <stdio.h>
+int main () {
+    int l;
+    scanf("%i", &l);
+    int i=0;
+    int w=0;
+    int a=0;
+ 
+    if (l>2) {
+    while (i<l) {
+        a=a+1;
+        w=w+a;;
+        i++;
+ 
+    }
+    }
+    printf("%i", w);
+    }    
+Zad.10.
+#include <stdio.h>
+int main () {
+    int l;
+    scanf("%i", &l);
+    int i=0;
+    int w=0;
+    int a=0;
+    int k=0;
+    int d;
+    if (l>2) {
+    while (i<l) {
+        a=a+1;
+        d=a*a;
+        w=k+d;
+        k=w;
+        i++;
+    }
+    }
+    printf("%i", w);
+    }    
