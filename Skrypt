@@ -3,3 +3,4 @@ Skrypt
 
 #!/bin/bash
 DZIEN=` date +%m-%d`
+grep $DZIEN mojahis.txt
