@@ -2,3 +2,4 @@ Skrypt
 ======
 
 #!/bin/bash
+DZIEN=` date +%m-%d`
