@@ -2,5 +2,6 @@ Skrypt
 ======
 
 #!/bin/bash
-DZIEN=` date +%m-%d`
+echo "Skrypt 
+DZIEN=` date +%d-%m`
 grep $DZIEN mojahis.txt
